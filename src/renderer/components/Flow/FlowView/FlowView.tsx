@@ -37,6 +37,11 @@ const FlowView: React.FunctionComponent<{}> = ({}) => {
 
   return (
     <Wrapper>
+      {requestStatus === 'failure' ? (
+        <Alert message={requestError?.message || ' '} type="error" closeText="Close" />
+      ) : (
+        <Spacing />
+      )}
       <RequestBuilder
         requestBuilder={requestBuilder}
         protoCtx={protoCtx}
@@ -44,11 +49,6 @@ const FlowView: React.FunctionComponent<{}> = ({}) => {
         onSend={send}
       />
       <Spacing />
-
-      {requestStatus === 'failure' ? (
-        <Alert message={requestError?.message || ' '} type="error" closeText="Close" />
-      ) : null}
-
       {requestStatus === 'sending' ? <Spin size="large" tip="Sending request..." /> : null}
 
       {response ? <ResponseView response={response} /> : null}

@@ -7,6 +7,8 @@ import styled from 'styled-components';
 import ExpectedBodyInput from '../ExpectedBodyInput/ExpectedBodyInput';
 import { RequestBuilder } from '../../../../models/request_builder';
 import { ProtoCtx } from '../../../../../core/protobuf/protobuf';
+import { AnyAction, Dispatch } from 'redux';
+import { useDispatch } from 'react-redux';
 
 const { TabPane } = Tabs;
 
@@ -38,7 +40,6 @@ type Props = {
 
 const RequestBuilderView: React.FunctionComponent<Props> = ({ requestBuilder, protoCtx, messageNames, onSend }) => {
   const { method, url, headers, bodyType, bodies, expectedProtobufMsg, expectedProtobufMsgOnError } = requestBuilder;
-
   return (
     <BuilderWrapper>
       <TopBarWrapper>

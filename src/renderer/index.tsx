@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.less';
-import { Provider } from 'react-redux';
+import { Provider, useDispatch } from 'react-redux';
 import { Store } from 'redux';
 import App from './components/App';
 import ipcChannels from '../ipc_channels';
@@ -27,10 +27,10 @@ export function initializeApp(store: Store): void {
       ipcRenderer.send(ipcChannels.SAVE, [dumpStore(store)]);
     }, DEBOUNCE_MS);
   });
+  //console.log('Read cache');
 }
 
 setupListeners(ipcRenderer);
 
 ipcRenderer.send(ipcChannels.LOAD_MOST_RECENT);
-
 console.log('RENDERER PROCESS STARTED');
