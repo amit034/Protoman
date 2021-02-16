@@ -33,26 +33,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1cb75c5a-6340-4c59-86de-f35a409f30e5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renderer-webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/renderer-webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/cache.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/protobuf/deserializer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/protobuf/deserializer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ipc_channels.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/ipc_channels.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/events.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/events.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/notification.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/notification.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/components/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/components/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/components/Collection/CollectionSider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/components/Collection/CollectionSider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/components/Flow/body/JSONEditor.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/components/Flow/body/JSONEditor.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/components/cache/CacheAction.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/components/cache/CacheAction.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/components/cache/CacheReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/components/cache/CacheReducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/components/cache/CacheResponseView.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/components/cache/CacheResponseView.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/components/cache/CacheSider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/components/cache/CacheSider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/events.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/events.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/models/AppState.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/models/AppState.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/models/Cache.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/Cache.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/redux/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/redux/store.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
