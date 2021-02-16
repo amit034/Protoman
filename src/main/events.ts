@@ -22,7 +22,7 @@ type CacheUpdate = {
 const caches: { [key: string]: CacheUpdate } = {};
 
 function s3BucketLocation(env: string) {
-
+  return `ramp-optimization-${env}-us-east-1/entities_data`;
 }
 
 function protoTmpFileLocation(name: string) {
